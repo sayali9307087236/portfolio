@@ -1,0 +1,536 @@
+.about {
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+
+
+
+ /* Container styling */
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.about h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.about ul {
+  display: flex;
+  flex-wrap: wrap; /* Allows items to wrap if needed */
+  justify-content: center;
+  list-style-type: none; /* Remove default bullet points */
+  padding-left: 0;
+  margin: 0;
+}
+
+.about ul li {
+  margin: 10px 20px; /* Add space between items */
+  background-color: #f0f0f0;
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  display: inline-block;
+}
+
+.skills-list {
+  width: 100%;
+  max-width: 1200px; /* Limit the width of the skills section */
+}
+
+
+
+
+
+
+/* Container styling */
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.about h2 {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.about p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin-bottom: 40px;
+  color: #555;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap; /* Wraps items if needed */
+  justify-content: center;
+  padding-left: 0;
+  margin: 0;
+  list-style-type: none; /* Remove default bullets */
+}
+
+/* Styling for individual skill items */
+.skills-list li {
+  margin: 10px 15px; /* Spacing between skill items */
+  padding: 12px 20px;
+  background-color: #4caf50; /* Green background */
+  color: white;
+  border-radius: 25px; /* Rounded edges */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+  cursor: pointer;
+}
+
+/* Hover effect for skill items */
+.skills-list li:hover {
+  background-color: #388e3c; /* Darker green on hover */
+  transform: translateY(-5px); /* Lift the skill item on hover */
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.15); /* Stronger shadow on hover */
+}
+
+/* Optional focus effect */
+.skills-list li:focus {
+  outline: none;
+  background-color: #66bb6a; /* Lighter green on focus */
+}
+
+
+
+
+
+
+
+
+
+
+/* General container styling */
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.about h2 {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.about p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin-bottom: 40px;
+  color: #555;
+}
+
+/* Skills list container */
+.skills-list {
+  display: flex;
+  flex-wrap: wrap; /* Wraps items if needed */
+  justify-content: center;
+  padding-left: 0;
+  margin: 0;
+  list-style-type: none; /* Remove default bullets */
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Styling for individual skill items */
+.skills-list li {
+  margin: 10px 15px; /* Spacing between skill items */
+  padding: 12px 20px;
+  background: linear-gradient(145deg, #090c0d, #ed2f2f); /* Gradient background */
+  color: white;
+  border-radius: 30px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-align: center;
+  min-width: 120px; /* Ensure each skill block has a minimum width */
+}
+
+/* Hover effect for skill items */
+.skills-list li:hover {
+  background: linear-gradient(145deg, #2f80ed, #1c6dd0); /* Change gradient on hover */
+  transform: translateY(-5px); /* Slight lift effect */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25); /* Stronger shadow on hover */
+}
+
+/* Focus effect for accessibility */
+.skills-list li:focus {
+  outline: none;
+  background-color: #4caf50; /* Green on focus */
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .skills-list li {
+    margin: 8px 10px;
+    padding: 10px 15px;
+    font-size: 1rem;
+  }
+}
+
+
+
+
+/* Use Animate.css classes in your skill list items */
+.skills-list li {
+  margin: 10px 15px;
+  padding: 12px 20px;
+  background: linear-gradient(145deg, #56ccf2, #2f80ed);
+  color: white;
+  border-radius: 30px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-align: center;
+  min-width: 120px;
+}
+
+/* Add Animate.css bounce animation */
+.skills-list li:hover {
+  background: linear-gradient(145deg, #2f80ed, #1c6dd0);
+  transform: translateY(-10px);
+  animation: animate__animated animate__bounce; /* Apply Animate.css class */
+}
+
+
+
+
+
+
+.skills-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills-list li {
+  margin: 10px;
+  padding: 12px 20px;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 25px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.skills-list li:hover {
+  background-color: #388e3c;
+  transform: translateY(-5px);
+}
+
+
+
+
+
+
+
+
+
+/* General container styling */
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.about h2 {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.about p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin-bottom: 40px;
+  color: #555;
+}
+
+/* Skills list container */
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+/* Styling for individual skill items */
+.skills-list li {
+  margin: 10px 15px;
+  padding: 12px 20px;
+  background: linear-gradient(145deg, #5edcea, #522fed);
+  color: white;
+  border-radius: 30px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-align: center;
+  min-width: 120px;
+}
+
+/* Hover effect for skill items */
+.skills-list li:hover {
+  background: linear-gradient(145deg, #020508, #c90000);
+  transform: translateY(-10px); /* Lift effect on hover */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25); /* Stronger shadow */
+}
+
+/* Focus effect for accessibility */
+.skills-list li:focus {
+  outline: none;
+  background-color: #4caf50;
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .skills-list li {
+    margin: 8px 10px;
+    padding: 10px 15px;
+    font-size: 1rem;
+  }
+}
+
+
+
+
+
+
+/* General container styling */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+  box-sizing: border-box; /* Ensure padding and border are included in width/height */
+  min-height: 100vh; /* Ensure the section takes at least full viewport height */
+}
+
+/* About section styling */
+.about {
+  text-align: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.about h2 {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.about p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin-bottom: 40px;
+  color: #555;
+}
+
+/* Skills section styling */
+.skills-list-container {
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  max-width: 1000px; /* Limit the width for better alignment */
+}
+
+/* Styling for individual skill items */
+.skills-list li {
+  margin: 10px 15px;
+  padding: 12px 20px;
+  background: linear-gradient(145deg, #5edcea, #522fed);
+  color: white;
+  border-radius: 30px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-align: center;
+  min-width: 120px;
+}
+
+/* Hover effect for skill items */
+.skills-list li:hover {
+  background: linear-gradient(145deg, #020508, #c90000);
+  transform: translateY(-10px); /* Lift effect on hover */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25); /* Stronger shadow */
+}
+
+/* Focus effect for accessibility */
+.skills-list li:focus {
+  outline: none;
+  background-color: #4caf50;
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .skills-list li {
+    margin: 8px 10px;
+    padding: 10px 15px;
+    font-size: 1rem;
+  }
+}
+
+/* Footer styling */
+.footer {
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  box-sizing: border-box; /* Ensure padding and border are included in width/height */
+}
+
+
+
+
+
+
+
+/* General container styling */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+  box-sizing: border-box;
+  min-height: 100vh;
+}
+
+/* About section styling */
+.about {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff; /* White background for clarity */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  margin-bottom: 40px; /* Space below the about section */
+}
+
+/* Skills section styling */
+.skills-list-container {
+  padding: 20px;
+  background-color: #ffffff; /* White background for clarity */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Styling for individual skill items */
+.skills-list li {
+  margin: 10px;
+  padding: 12px 20px;
+  background: linear-gradient(145deg, #5edcea, #522fed);
+  color: white;
+  border-radius: 30px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-align: center;
+  min-width: 120px;
+}
+
+/* Hover effect for skill items */
+.skills-list li:hover {
+  background: linear-gradient(145deg, #020508, #c90000);
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* Focus effect for accessibility */
+.skills-list li:focus {
+  outline: none;
+  background-color: #4caf50;
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .skills-list li {
+    margin: 8px 10px;
+    padding: 10px 15px;
+    font-size: 1rem;
+  }
+}

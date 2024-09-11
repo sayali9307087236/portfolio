@@ -1,0 +1,114 @@
+/* Container for the projects section */
+.projects {
+  padding: 40px;
+  background-color: #eef;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects h2 {
+  font-size: 3rem;
+  margin-bottom: 40px;
+  color: #333;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Project List */
+.projects ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* Styling each project item */
+.projects ul li {
+  margin: 20px 0;
+  background-color: white;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 800px;
+  text-align: left;
+  opacity: 1;
+  transition: background-color 0.4s ease, box-shadow 0.4s ease, transform 0.4s ease;
+}
+
+/* Hover effects for project boxes */
+.projects ul li:hover {
+  background-color: #f0faff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  transform: scale(1.03); /* Slight scale-up effect */
+}
+
+/* Project links (View Project button) */
+.projects ul li a {
+  display: inline-block;
+  background-color: #2f80ed;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-top: 20px;
+}
+
+.projects ul li a:hover {
+  background-color: #1c6dd0;
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Project title */
+.projects ul li h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #2f80ed;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+/* Project description text */
+.projects ul li p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.8;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Responsive design for mobile devices */
+@media (max-width: 768px) {
+  .projects ul li {
+    padding: 20px;
+    margin: 15px 0;
+  }
+
+  .projects ul li h2 {
+    font-size: 1.6rem;
+  }
+
+  .projects ul li p {
+    font-size: 0.9rem;
+  }
+
+  .projects ul li a {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+}
+
+
+

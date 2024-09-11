@@ -1,0 +1,31 @@
+/* Contact.css */
+
+.contact {
+  padding: 20px;
+  text-align: center;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.contact-item:hover {
+  color: #2f80ed; /* Change color on hover */
+}
+
+.contact-item svg {
+  margin-right: 10px;
+  color: #2f80ed; /* Icon color */
+}

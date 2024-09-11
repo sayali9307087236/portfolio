@@ -1,0 +1,29 @@
+.header {
+  padding: 20px;
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.navbar ul li a.active-link {
+  font-weight: bold; /* Highlight active link with bold text */
+  border-bottom: 2px solid #61dafb; /* Add an underline to the active link */
+  padding-bottom: 5px;
+}
